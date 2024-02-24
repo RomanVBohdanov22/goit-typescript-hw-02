@@ -49,3 +49,11 @@ enum DaysOfWeek {
 /*if (wrkday.day === DaysOfWeek.SATURDAY || wrkday.day === DaysOfWeek.SUNDAY) {
   console.log("This is Weekend!");
 }*/
+
+function isWeekend(dayOfWeek: DaysOfWeek): boolean {
+  return dayOfWeek === DaysOfWeek.SUNDAY || dayOfWeek === DaysOfWeek.SATURDAY;
+}
+
+console.log(isWeekend(DaysOfWeek.SUNDAY));
+console.log(isWeekend(DaysOfWeek.MONDAY));
+console.log(isWeekend(DaysOfWeek.SATURDAY));
