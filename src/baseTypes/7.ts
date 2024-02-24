@@ -19,7 +19,23 @@ if (person.role === Role.ADMIN) {
 
 export = {};
 */
-enum DaysOfWeeek {
+/*
+enum HttpCodes {
+  OK = 200,
+  BadRequest = 400,
+  Unauthorized = 401,
+}
+
+function respond(status: HttpCodes) {
+  // handle response
+}
+
+respond(HttpCodes.OK);
+
+export {};
+
+*/
+enum DaysOfWeek {
   MONDAY,
   TUESDAY,
   WEDNESDAY,
@@ -28,3 +44,8 @@ enum DaysOfWeeek {
   SATURDAY,
   SUNDAY,
 }
+//let wrkday = { day: DaysOfWeek.FRIDAY };
+
+/*if (wrkday.day === DaysOfWeek.SATURDAY || wrkday.day === DaysOfWeek.SUNDAY) {
+  console.log("This is Weekend!");
+}*/
